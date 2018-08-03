@@ -1,1 +1,14 @@
-
+{
+  "name": "bot_d_aie",
+  "version": "1.0.0",
+  "description": "Bot officiel du serveur Discord d'AIE, le Furry ModÃ©liste Joueur.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AIE, le Furry ModÃ©liste Joueur",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}

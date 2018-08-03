@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 var prefix = '/';
-bot.login('NDY0MTc3MDIyODYwNTI1NTk5.DiCohg.A92zWk8owPViJuEp-sqXcsktgSU');
+bot.login(process.env.TOKEN)
 
 bot.on('guildMemberAdd', async member => {
     const channel = member.guild.channels.find('name', 'bienvenue_les_nouveaux_');

@@ -16,9 +16,6 @@ bot.on('guildMemberAdd', async member => {
         .addField("-Si vous êtes un geek : Bonjour @Modérateur, je suis un geek !", ":regional_indicator_g:")
         .setFooter("Menu de l'attribution -Bot d'AIE V0.1-2018-08-01")
         channel.send(newmember_embed);
-        await message.react('🇫');
-        await message.react('🇲');
-        await message.react('🇬');
         console.log('Un nouvel utilisateur est arrivé !')
     }
 );
